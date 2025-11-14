@@ -1,21 +1,29 @@
 {
-  "name": "smarttesthub",
+  "name": "smartexam",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Varsha2418/smartexam#readme",
+  "bugs": {
+    "url": "https://github.com/Varsha2418/smartexam/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Varsha2418/smartexam.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
-    "body": "^5.1.0",
+    "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.19.2",
-    "nodemon": "^3.1.10"
+    "mongoose": "^8.19.3",
+    "nodemon": "^3.1.11"
   }
 }
